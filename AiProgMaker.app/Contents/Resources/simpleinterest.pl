@@ -1,0 +1,13 @@
+simpleinterest(P,R,T):- S is P*R*T/100,
+write("Aish Principle = "),
+write(P),
+nl,
+write("Rate = "),
+write(R),
+nl,
+write("Time = "),
+write(T),
+nl,
+write("Interest = "),
+write(S),
+nl.
